@@ -8,3 +8,11 @@ SAM 2 is used to segment the image into regions. Each segment is then evaluated 
 The semantic pipeline is implemented in:
 ```text
 notebooks/semantic_cost_map.ipynb
+```
+
+### How to run
+Place input RGB frames in: ```data/```.
+
+Then run ```notebooks/semantic_cost_map.ipynb```.
+
+Generated semantic cost maps are saved to: ```outputs/```.
