@@ -5,6 +5,12 @@ This project investigates vision-based traversability planning using pretrained 
 
 The project also investigates temporal consistency by comparing independent A* planning, temporal fusion, and RAFT-based optical-flow alignment.
 
+The experiments are conducted on two driving scenarios (scenario_01 and scenario_02). The Google Drive folder contains the input datasets, generated semantic and geometric cost maps, and final evaluation results for both scenarios.
+
+For each scenario, the evaluation results include planning comparison videos, cost-map source comparison videos, and quantitative metrics.
+
+**[Access Datasets and Evaluation Results on Google Drive](https://drive.google.com/drive/folders/1ECtaFKlDo-LRSOHqZEvRgyLDYm73WzgW?usp=drive_link)**
+
 ## Semantic Traversability
 The semantic traversability component generates a per-pixel cost map from RGB images using pretrained SAM 2 and CLIP models.
 
