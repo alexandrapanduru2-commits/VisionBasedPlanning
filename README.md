@@ -1,5 +1,10 @@
 # VisionBasedPlanning
 
+## Project Overview
+This project investigates vision-based traversability planning using pretrained foundation models and RGB driving sequences. Semantic and geometric information are used to construct traversability cost maps, which are then used for image-space A* path planning.
+
+The project also investigates temporal consistency by comparing independent A* planning, temporal fusion, and RAFT-based optical-flow alignment.
+
 ## Semantic Traversability
 The semantic traversability component generates a per-pixel cost map from RGB images using pretrained SAM 2 and CLIP models.
 
